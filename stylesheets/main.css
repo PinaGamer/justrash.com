@@ -26,18 +26,22 @@ body{
 	display: flex;
 	box-shadow: inset -1px -77px 166px -75px rgba(0,0,0,0.91);
 }
-li{
+.seccionmenu{
 	text-decoration: none;
-	margin-right: 4em;
-	margin-top: 1em;
+	padding: 1em;
+	border-left: 1px solid #545454;
+	border-right: 1px solid #545454;
+}
+.seccionmenu:hover{
+	background-color: #545454;
 }
 .menucab{
 	display: flex;
 	list-style: none;
 	color: white;
 }
-a: hover{
-	background-color: red;
+ul{
+	margin-bottom: 0.5em;
 }
 .proyectlist{
 	width: 80%;
