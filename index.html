@@ -3,8 +3,7 @@
 
   <head>
     <meta charset='utf-8'>
-    <link href='http://fonts.googleapis.com/css?family=Roboto:300,100italic,300italic' rel='stylesheet' type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=Permanent+Marker' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Roboto:100,300,100italic,300italic' rel='stylesheet' type='text/css'>
     <meta name="description" content="Portfolio : This is my personal repository where I upload my projects">
     <link rel="stylesheet" type="text/css" href="stylesheets/normalize.css">
     <link rel="stylesheet" type="text/css" href="stylesheets/main.css">
@@ -13,21 +12,33 @@
   </head>
 
   <body>
+
       <div class="cabecera">
-          <img src="images/justrash.png" class= "imgcabecera">  
+          <a href="index.html" class="home"><img src="images/justrashgrey.png" class="imgcabecera"></a>  
+          
           <ul class="menucab">
-            <li class="seccionmenu">ABOUT US</li>
-            <li class="seccionmenu">OUR COMPROMISE</li>
+            <li class="seccionmenu"><a href="#whatis">WHAT IS JUSTRASH?</a></li>
+            <li class="seccionmenu"><a href="#compromise">OUR COMPROMISE</a></li>
             <li class="seccionmenu">THE TEAM</li>
             <li class="seccionmenu">CONTACT</li>
           </ul>
       </div>
-      <div class="proyectlist">
-          <div class="proyect">
-            <a href="http://justrash.mybluemix.net/"> <img class="imagenjustrash" src="images/jusTrash.png" width= 250px height= 100px></a>
-              <div class="datos">
-              </div>
-          </div>
+
+      <div class="content">
+            <div class="whatis" id="whatis">
+                  <h1>WHAT IS JUSTRASH?</h1>
+                  <img src="images/imacjustrash.png" class="whatisimage">
+                  <p>jusTrash offers cities an efficient and smart way to collect trash, enabling it not only to save money and help the environment, but to collect really valuable data to help cities get smarter, and allow better decision making.</p>
+                  <p>Our system uses sensors to see how full a trash can is. Whenever someone throws something into the trash can, an update is sent to our servers.</p>
+                  <p>The client can then access the data from our web service, and obtain the most efficient  pick up routes, district by district.</p>
+                  <p>The settings of our sensors can be customised to fit a city’s, and the admin can decide when he wants a trash can to appear as full.</p>
+            </div>
+
+            <div class="compromise" id="compromise">
+                  <h1>OUR COMPROMISE</h1>
+            </div>
       </div>
+
+
   </body>
 </html>
